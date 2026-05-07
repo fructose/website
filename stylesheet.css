@@ -131,19 +131,21 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-span.highlight {
-  background-color: #ffffd0;
-}
-
 @media (max-width: 720px) {
+  .header-table,
+  .header-table tbody {
+    display: block !important;
+    width: 100% !important;
+  }
   .header-table tr {
-    display: flex;
-    flex-direction: column-reverse;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    width: 100% !important;
   }
   .header-table td {
+    display: block !important;
     width: 100% !important;
     max-width: 100% !important;
-    display: block;
     padding: 0 !important;
   }
   .header-table td:last-child {
