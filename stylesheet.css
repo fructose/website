@@ -159,4 +159,7 @@ h2 {
     font-size: 28px;
     padding-top: 10px;
   }
+    .header-table p {
+    text-align: left !important;
+  }
 }
